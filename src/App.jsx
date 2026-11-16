@@ -3,6 +3,8 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
+import SettingsForm from './SettingsForm'
+import SettingsForm from './SettingsForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -114,6 +116,8 @@ function App() {
       </section>
 
       <div className="ticks"></div>
+      <SettingsForm />
+      <SettingsForm />
       <section id="spacer"></section>
     </>
   )
