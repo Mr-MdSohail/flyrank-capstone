@@ -1,47 +1,16 @@
-# Flyrank Capstone
+# React + Vite
 
-A modern web application built with React, focusing on clean, modular, and mobile-responsive design.
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-## Tech Stack
+Currently, two official plugins are available:
 
-- **Frontend:** React, HTML5, CSS3
-- **Version Control:** Git & GitHub
-- **Deployment:** Vercel / Netlify
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Getting Started
+## React Compiler
 
-### Prerequisites
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-- Node.js (v18 or higher recommended)
-- npm or yarn
+## Expanding the Oxlint configuration
 
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Mr-MdSohail/flyrank-capstone.git
-   ```
-2. Navigate to the directory:
-   ```bash
-   cd flyrank-capstone
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-## Development
-
-To start the development server:
-
-```bash
-npm start
-```
-
-## Deployment
-
-This project is configured for deployment on Vercel or Netlify. Simply connect your GitHub repository to your preferred platform for automatic builds.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
