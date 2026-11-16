@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import SettingsForm from './SettingsForm'
 import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
@@ -114,6 +115,7 @@ function App() {
       </section>
 
       <div className="ticks"></div>
+      <SettingsForm />
       <section id="spacer"></section>
     </>
   )
